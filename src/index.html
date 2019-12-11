@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    @@include("partials/head.html", {
+      "title": "Dashkit"
+    })
+  </head>
+  <body>
+    <nav class="navbar navbar-light" id="topnav">
+      <div class="container">
+        <!-- Navigation -->
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#" id="topnavDashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projets
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="topnavPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A propos
+            </a>
+          </li>
+
+        </ul>
+
+      </div> <!-- / .container -->
+    </nav>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+      <div class="container">
+        <h1 class="mt-3">Anaïs du Couëdic | UX design portfolio</h1>
+      </div>
+      <div class="container">
+
+        <h2>Projets</h2>
+        <!-- Tab content -->
+        <div class="tab-content">
+          <div class="tab-pane fade active show" id="tabPaneOne" role="tabpanel">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
+                <!-- Shiseido Card -->
+                <div class="card">
+                  <a href="project-overview.html">
+                    <img src="assets/img/Shiseido/logo.png" alt="..." class="card-img-top">
+                  </a>
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+                        <hr>
+                        <h3 class="card-title mb-2 name">
+                          <a href="project-overview.html">Shiseido</a>
+                        </h3>
+                        <p class="card-text small text-muted">
+                          Novembre 2019
+                        </p>
+                      </div>
+                    </div> <!-- / .row -->
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <!-- MAIF Card-->
+                <div class="card">
+                  <a href="invoice.html">
+                    <img src="assets/img/maif/logo.jpg" alt="..." class="card-img-top">
+                  </a>
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+                        <hr>
+                        <!-- Title -->
+                        <h3 class="card-title mb-2 name">
+                          <a href="invoice.html">MAIF</a>
+                        </h3>
+
+                        <!-- Subtitle -->
+                        <p class="card-text small text-muted">
+                          Octobre 2019
+                        </p>
+
+                      </div>
+
+                    </div> <!-- / .row -->
+
+
+                  </div> <!-- / .card-body -->
+                </div>
+
+              </div>
+<!-- / .row -->
+            </div>
+            <hr>
+
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                  <h2>A propos</h2>
+                  <div class="media">
+                    <div class="align-self-center avatar avatar-xxl mr-3" class="row justify-content-left">
+                      <img src="assets/img/avatars/profiles/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                    <div class="media-body">
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                      <p class="mb-3">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-md-10">
+                        <div class="card-body text-justify">
+                            <h3>bolobobo</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis dolor sit amet neque maximus efficitur. Nam non elit sit amet quam eleifend varius vitae dictum ipsum. In sed nisi imperdiet, tempor risus non, gravida ante. Vivamus egestas eu metus id porttitor. Fusce placerat maximus eros, vel laoreet justo. Nulla sagittis posuere fringilla. Aliquam erat volutpat. Praesent egestas vulputate egestas.
+                            </p>
+                            <hr>
+                            <h3>bolobob</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis dolor sit amet neque maximus efficitur. Nam non elit sit amet quam eleifend varius vitae dictum ipsum. In sed nisi imperdiet, tempor risus non, gravida ante. Vivamus egestas eu metus id porttitor. Fusce placerat maximus eros, vel laoreet justo. Nulla sagittis posuere fringilla. Aliquam erat volutpat. Praesent egestas vulputate egestas.
+                            </p>
+                            <hr>
+                            <h3>bolobob</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis dolor sit amet neque maximus efficitur. Nam non elit sit amet quam eleifend varius vitae dictum ipsum. In sed nisi imperdiet, tempor risus non, gravida ante. Vivamus egestas eu metus id porttitor. Fusce placerat maximus eros, vel laoreet justo. Nulla sagittis posuere fringilla. Aliquam erat volutpat. Praesent egestas vulputate egestas.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <button type="button" class="btn btn-secondary btn-lg">Télécharger le CV</button>
+                </div>
+              </div>
+                </div>
+              </div>
+
+
+
+
+    </div> <!-- / .main-content -->
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+
+</html>
