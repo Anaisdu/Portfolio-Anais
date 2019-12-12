@@ -10903,3 +10903,9 @@ a:focus, button:focus {
 
 .is-invalid ~ .select2 .select2-selection {
   border-color: #E63757 !important; }
+
+.btn-secondary {
+  background-color: #3E4971; }
+
+.text-bleu {
+  color: #53D59E; }
